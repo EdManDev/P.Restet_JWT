@@ -86,8 +86,6 @@ function errorHandling() {
 }
 
 
-
-
 // Show output in browser
 function showOutput(res) {
   document.getElementById('res').innerHTML = `
