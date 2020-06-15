@@ -1,0 +1,19 @@
+{
+	"name": "p.restet_jwt",
+	"version": "1.0.0",
+	"description": "![img](./screenshot/rpw.png)",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"dev": "npm run server",
+		"server": "nodemon server"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"jwt-simple": "^0.5.6",
+		"nodemon": "^2.0.4"
+	}
+}
